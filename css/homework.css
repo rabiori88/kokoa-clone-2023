@@ -1,0 +1,138 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.main-body{
+    height: 5vh;
+    padding:10px 30px 10px 20px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-body__column{
+    width: 33%;
+}
+
+.main-body__column:nth-child(2) span{
+    display: flex;
+    justify-content: center;
+}
+
+.second-body{
+    display: flex;
+    margin-top: 10px;
+}
+.second-body__Song{
+    margin-left: 20px;
+}
+.second-body__SongName{
+    font-size: 40px;
+    font-weight: 500;
+}
+.second-body__Singer{
+    font-size: 20px;
+    font-weight: 500;
+}
+.second-body__img{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.second-body__img .fa-image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:50%;
+    
+}
+
+
+.third-body{
+    display: flex;
+    margin-top: 10px;
+}
+
+.third-body__Play{
+    width: 50% ;
+}
+
+.third-body__Play{
+    width: 50% ;
+    border: 2px solid black;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.third-body__Icon{
+    width: 25% ;
+    border: 2px solid black;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+.third-body__PlaySet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+.fa-solid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.forth-body__Set{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.forth-body__Img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.forth-body__Song{
+    margin-left: 20px;
+}
+
+.forth-body__SongName{
+    font-size: 25px;
+    font-weight: 500;
+}
+.forth-body__Singer{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Img1 {
+    background-color: red;
+}
+.Img2 {
+    background-color: hotpink;
+}
+.Img3 {
+    background-color: blue;
+}
+.Img4 {
+    background-color: teal;
+}
